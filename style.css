@@ -1,0 +1,96 @@
+.border{
+  border: 5px black;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  height: auto;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 50%;
+  text-align: center;
+}
+
+.flex-name {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: center;
+  padding: 40px;
+}
+
+.flex-name > div {
+  text-align: center;
+  justify-content: center;
+  font-size: 50px;
+}
+
+.flex-other {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: center;
+  padding: 40px;
+}
+
+.flex-other > div {
+  text-align: right;
+  margin-right: 25%;
+  justify-content: center;
+  font-size: 15px;
+  padding: 5px;
+}
+.flex-content {
+  flex-direction: column;
+  justify-content: center;
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  }
+pre{
+  margin:0px;
+  display:flex;
+  
+}
+.obj-1, .edu-1,.exp-1,.skill-1,.act-1 {
+  font-size: 20px;
+  color:black;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  font-weight: bold;
+
+}
+.obj-2,.act-2 {
+  font: 15px Arial;
+  text-align: justify;
+  font-size: 15px;
+  color:black;
+}
+.edu-2{
+  font-size:15px;
+  color:purple;
+  font-weight: bold;
+  font: 15px Arial;
+  text-align: justify;
+}
+span.school-company{
+  color:black;
+    }
+.skills-flex{
+  display: flex;
+}
+.skill-2{
+  width: 15%;
+  font:20px Arial bold;
+  text-align: justify ;
+}
+.act-1{
+  padding-top: 0px;
+}
+ul{
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
